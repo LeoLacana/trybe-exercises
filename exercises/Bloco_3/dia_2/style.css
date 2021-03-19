@@ -1,0 +1,33 @@
+body {
+    font-size: 16px;;
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+  h1 {
+      font-size: 65px;
+      color: orange;
+      font-family: sans-serif;
+  }
+
+  p {
+    font-weight: 520;
+    font-size: 2em;
+    text-decoration: underline;
+  }
+
+  p, ul {
+      background-color: rgb(225, 400, 200);
+  }
+
+  #color-yellow{
+    color: rgb(155, 155, 35);
+  }
+
+  #color-red{
+    color: red;
+  }
+
+  #brown{
+    color: brown;
+  }
