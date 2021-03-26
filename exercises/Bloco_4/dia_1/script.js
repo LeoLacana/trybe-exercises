@@ -1,5 +1,5 @@
 
-/* -------- Primeiro Exercício -------- */
+/* -------- Exercício do conteúdo -------- */
 
 /*const name = 'Leonardo';
 const birthCity = 'Mesquita';
@@ -13,7 +13,7 @@ birthCity = 'Nova Iguaçi'
 
 console.log(birthCity);*/
 
-/* -------- Segundo Exercício -------- */
+/* -------- Exercício do conteúdo -------- */
 
 /*var notaRafael = 70;
 
@@ -25,9 +25,9 @@ if (notaRafael >= 80 ){
     console.log('Você foi reprovado');
 }*/
 
-/* -------- Terceiro Exercício -------- */
+/* -------- Exercício do conteúdo -------- */
 
-var notaRafael = 'nada';
+/*var notaRafael = 'nada';
 
 switch (notaRafael){
     case 'aprovada':
@@ -41,4 +41,19 @@ switch (notaRafael){
         break;
     default:
         console.log('não se aplica');
+}*/
+
+/* -------- 1° Exercicio -------- */
+/*
+var a = 1;
+var b = 7;
+var c = 3;
+
+if (a > b && a > c){
+    console.log(a + " é o maior");
+} else if (b > a && b > c){
+    console.log(b + " é o maior");
+} else {
+    console.log(c + " é o maior");
 }
+*/
