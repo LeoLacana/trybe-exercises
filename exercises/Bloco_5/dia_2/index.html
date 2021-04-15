@@ -61,6 +61,8 @@
       elementH1.innerText = "Exercício 5.2 - JavaScript DOM";
       let elementBody = document.getElementsByTagName('body')[0];
       elementBody.appendChild(elementH1);
+
+      elementH1.className = 'title';
       
       let elementDiv = document.createElement('div');
       elementDiv.className = 'main-content';
@@ -76,10 +78,31 @@
       let elementDiv3 = document.createElement('div');
       elementDiv3.className = 'left-content';
       elementDiv2.appendChild(elementDiv3);
+      elementDiv2.removeChild(elementDiv3);
 
       let elementDiv4 = document.createElement('div');
       elementDiv4.className = 'right-content';
       elementDiv2.appendChild(elementDiv4);
+      elementDiv4.marginRight = 'auto';
+
+      let elementPhoto = document.createElement('img');
+      elementPhoto.className = 'small-image';
+      elementPhoto.src = "https://picsum.photos/200";
+      elementDiv3.appendChild(elementPhoto);
+
+      let elementUl = document.createElement('ul');
+      elementDiv4.appendChild(elementUl);
+
+      for (let index = 0; index < 10; index += 1){
+        let elementLi = document.createElement('li');
+        elementUl.appendChild(elementLi);
+      }
+
+      for (let index = 0; index < 3; index += 1){
+        let elementH3 = document.createElement('h3');
+        elementDiv.appendChild(elementH3);
+        elementH3.className = 'description';
+      }
     </script>
   </body>
 </html>
