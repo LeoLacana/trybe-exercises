@@ -1,0 +1,1 @@
+// Código feito em outro lugar, a transferir para esse arquivo
