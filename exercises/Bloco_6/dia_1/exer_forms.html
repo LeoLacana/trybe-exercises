@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form class = 'box'>
+    <form class="box">
+      <legend>Dados Pessoais</legend>
+      <div class="field">
+        <label for="label">Nome</label>
+        <div class="control">
+          <input class="input" type="text" maxlength="40" required>
+        </div>
+      </div>
+      <br>
+      Email <br><input type="email" maxlength="50" required>
+      <br>
+      CPF <br><input type="text" maxlength="11" required>
+      <br>
+      Endereço <br><input type="text" maxlength="200" required>
+      <br>
+      Cidade <br><input type="text" maxlength="28" required>
+      <br><br>
+      Estado
+      <select name="estado" id="state" required>
+        <option value="">Rio de Janeiro</option>
+        <option value="">São Paulo</option>
+        <option value="">Minas Gerais</option>
+        <option value="">Pará</option>
+        <option value="">Rio Grande do Sul</option>
+        <option value="">Paraná</option>
+        <option value="">Goiânia</option>
+      </select>
+      <br><br>
+      <fieldset required>
+        <legend>Tipo de Casa</legend>
+        <label for="house1"><input type="radio" name="type-house" id="house1">Casa</label>
+        <label for="house2"><input type="radio" name="type-house" id="house2">Apartamento</label>
+      </fieldset>
+    </form>
+    <form class="box">
+      <legend>Último emprego</legend>
+      Resumo do Currículo <br><textarea name="" id="" cols="40" rows="5" maxlength="1000" required></textarea>
+      <br>
+      Cargo <br><input type="text" maxlength="40" required>
+      <br>
+      Descrição do Cargo <br><textarea name="" id="" cols="40" rows="5" maxlength="500" required></textarea>
+      <br>
+      Data de Início <input type="text" placeholder="(dd/mm/aaaa)" maxlength="10" id='date'>
+    </form>
+    <br>
+    <button id='submit'>Enviar</button>
+    <script src="script.js"></script>
+  </form>
+</body>
+</html>
